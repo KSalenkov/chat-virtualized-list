@@ -1,0 +1,40 @@
+{
+  "name": "chat-virtualized-list",
+  "version": "1.0.0",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "keywords": [],
+  "author": "eskey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/throttle-debounce": "^5.0.0",
+    "throttle-debounce": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KSalenkov/chat-virtualized-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KSalenkov/chat-virtualized-list/issues"
+  },
+  "homepage": "https://github.com/KSalenkov/chat-virtualized-list#readme",
+  "description": ""
+}
