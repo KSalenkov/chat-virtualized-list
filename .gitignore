@@ -2,3 +2,12 @@
 node_modules
 /.pnp
 .pnp.js
+
+# Editor directories and files
+*.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
