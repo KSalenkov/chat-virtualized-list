@@ -26,7 +26,8 @@ import { VirtualizedList } from 'chat-virtualized-list';
         <div>
             {message.text}
         </div>
-    </VirtualizedList>
+    }
+</VirtualizedList>
 ```
 
 
