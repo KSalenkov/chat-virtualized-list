@@ -1,10 +1,14 @@
 ## **INSTALL**
 
-`npm install chat-virtualized-list`
+```
+npm install chat-virtualized-list
+```
 
 or
 
-`yarn add chat-virtualized-list`
+```
+yarn add chat-virtualized-list
+```
 
 
 ## **Using**
